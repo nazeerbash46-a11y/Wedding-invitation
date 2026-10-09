@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vijay &amp; Rashima · Wedding Invitation · 20 December 2026</title>
+<meta name="description" content="With blessings and joyful hearts, Vijay and Rashima invite you to their wedding on 20 December 2026 in Bengaluru, India.">
+<meta name="theme-color" content="#0f2a22">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vijay & Rashima · Wedding Invitation">
+<meta property="og:description" content="Join us in Bengaluru on 20 December 2026.">
+<meta property="og:image" content="assets/images/og-image.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Great+Vibes&family=Italiana&family=Noto+Sans+Devanagari:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="locked">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="lotus" viewBox="0 0 80 50"><g fill="none" stroke="currentColor" stroke-width="1.2"><path d="M40 4c8 9 8 22 0 34-8-12-8-25 0-34z"/><path d="M40 38C28 36 18 28 14 16c12 0 22 6 26 22zM40 38c12-2 22-10 26-22-12 0-22 6-26 22z"/><path d="M40 38C24 40 10 34 2 26c12-2 28 0 38 12zM40 38c16 2 30-4 38-12-12-2-28 0-38 12z"/></g></symbol>
+    <symbol id="arch" viewBox="0 0 300 420"><g fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 420V170C20 80 90 20 150 6c60 14 130 74 130 164v250"/><path d="M44 420V176c0-72 52-124 106-138 54 14 106 66 106 138v244"/><path d="M70 420V184c0-52 34-92 80-104 46 12 80 52 80 104v236" opacity=".6"/><circle cx="150" cy="40" r="6"/></g></symbol>
+    <symbol id="diya" viewBox="0 0 40 40"><path d="M20 4c4 5 4 10 0 14-4-4-4-9 0-14z" fill="#e8b45a"/><path d="M4 24h32c0 8-7 12-16 12S4 32 4 24z" fill="#b08a43"/></symbol>
+    <symbol id="ganesha" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="50" cy="36" r="17"/><path d="M33 30c-12-2-18 6-14 16 3 6 9 6 14 2M67 30c12-2 18 6 14 16-3 6-9 6-14 2"/><path d="M50 40c-4 12-2 26 8 30 6 2 10-2 8-6"/><path d="M40 18l10-9 10 9M42 52c-6 10-8 22-4 34M60 56c8 8 10 20 6 30M36 86h32"/><circle cx="43" cy="33" r="1.2"/><circle cx="57" cy="33" r="1.2"/></g></symbol>
+  </defs>
+</svg>
+
+<!-- COVER -->
+<div id="cover" class="cover" role="dialog" aria-modal="true" aria-label="Wedding invitation cover">
+  <div class="door l"></div><div class="door r"></div>
+  <div class="cover-glow"></div>
+  <svg class="cover-arch" aria-hidden="true"><use href="#arch"/></svg>
+  <div class="toran" aria-hidden="true"></div>
+  <div class="cover-content">
+    <p class="cover-pre">Together with their families</p>
+    <h1 class="names script"><span data-bind="groom">Vijay</span><i>&amp;</i><span data-bind="bride">Rashima</span></h1>
+    <p class="cover-date">20 &bull; 12 &bull; 2026</p>
+    <button id="openBtn" class="open-btn" type="button"><svg aria-hidden="true"><use href="#lotus"/></svg><span>Tap to Open</span></button>
+  </div>
+  <div class="diyas" aria-hidden="true"><svg><use href="#diya"/></svg><svg><use href="#diya"/></svg><svg><use href="#diya"/></svg></div>
+</div>
+
+<div class="float">
+  <button id="musicBtn" class="fbtn" type="button" aria-pressed="false" aria-label="Play music"><span class="ico" aria-hidden="true"></span></button>
+  <button id="topBtn" class="fbtn top" type="button" aria-label="Scroll to top" hidden>&uarr;</button>
+</div>
+
+<main id="main">
+  <section class="hero" id="hero" aria-labelledby="heroNames">
+    <div class="art hero-bg" data-layer="0.08"><img data-img="hero" alt="" width="1080" height="1920" decoding="async"></div>
+    <svg class="hero-arch" data-layer="0.14" aria-hidden="true"><use href="#arch"/></svg>
+    <div class="moon" aria-hidden="true"></div>
+    <div class="foliage l" data-layer="-0.12" aria-hidden="true"><img data-img="floralL" alt="" loading="lazy"></div>
+    <div class="foliage r" data-layer="-0.12" aria-hidden="true"><img data-img="floralR" alt="" loading="lazy"></div>
+    <div class="hero-text">
+      <h2 id="heroNames" class="names script"><span data-bind="groom"></span><i>&amp;</i><span data-bind="bride"></span></h2>
+      <p class="hero-date" data-bind="dateLong"></p>
+      <p class="hero-place" data-bind="place"></p>
+      <p class="hero-line">With blessings and joyful hearts, we invite you to celebrate the beginning of our life together.</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <section class="sec intro reveal" aria-labelledby="introH">
+    <svg class="emblem" aria-hidden="true"><use href="#ganesha"/></svg>
+    <h2 id="introH" class="deva">&#2358;&#2381;&#2352;&#2368; &#2327;&#2339;&#2375;&#2358;&#2366;&#2351; &#2344;&#2350;&#2309;</h2>
+    <p class="invo script">Shree Ganeshaya Namah</p>
+    <p class="body">With the blessings of Lord Ganesha and our loved ones, we joyfully invite you to celebrate the wedding of <span data-bind="groom"></span> and <span data-bind="bride"></span>. Your presence and blessings will make our celebration even more special.</p>
+  </section>
+
+  <section class="sec blessing reveal" aria-label="Wedding blessing">
+    <svg class="lotus" aria-hidden="true"><use href="#lotus"/></svg>
+    <blockquote>May your journey together be blessed with love, harmony, and a lifetime of shared happiness.</blockquote>
+  </section>
+
+  <section class="sec count reveal" aria-labelledby="cdH">
+    <h2 id="cdH" class="h2">Until we celebrate</h2>
+    <div id="countdown" class="cd" role="timer" aria-live="off">
+      <div><b id="cdD">--</b><span>Days</span></div><div><b id="cdH2">--</b><span>Hours</span></div>
+      <div><b id="cdM">--</b><span>Minutes</span></div><div><b id="cdS">--</b><span>Seconds</span></div>
+    </div>
+    <p id="cdMsg" class="note" hidden></p>
+  </section>
+
+  <section class="sec story" aria-labelledby="stH">
+    <h2 id="stH" class="h2 reveal">Our Story</h2>
+    <p class="body reveal">A new beginning, surrounded by the people we love.</p>
+    <div id="gallery" class="gallery"></div>
+  </section>
+
+  <section class="sec details reveal" aria-labelledby="dtH">
+    <div class="card">
+      <svg class="lotus" aria-hidden="true"><use href="#lotus"/></svg>
+      <h2 id="dtH" class="h2" data-bind="eventName"></h2>
+      <p class="d-date" data-bind="dateLong"></p>
+      <p class="d-time" data-bind="timeLong"></p>
+      <p data-bind="place"></p>
+      <p class="note">Venue details will be shared soon.</p>
+      <button id="calBtn" class="btn" type="button" aria-expanded="false" aria-controls="calMenu">Add to Calendar</button>
+      <div id="calMenu" class="calmenu" hidden><a id="calGoogle" class="btn" href="#" target="_blank" rel="noopener">Google Calendar</a><a id="calIcs" class="btn" href="assets/calendar/vijay-rashima-wedding.ics" download>Apple Calendar / Outlook</a></div>
+    </div>
+  </section>
+
+  <section class="sec schedule reveal" aria-labelledby="scH">
+    <h2 id="scH" class="h2">The Celebration</h2>
+    <ol id="timeline" class="timeline"></ol>
+    <p class="note">Timings are placeholders until confirmed by the family.</p>
+  </section>
+
+  <section class="sec venue reveal" aria-labelledby="veH">
+    <div class="art venue-art"><img data-img="venue" alt="Atmospheric garden venue illustration" loading="lazy"></div>
+    <h2 id="veH" class="h2">Venue</h2>
+    <p class="body" data-bind="place"></p>
+    <p class="note" data-bind="venueNote"></p>
+    <a id="dirBtn" class="btn" href="#" target="_blank" rel="noopener" hidden>Get Directions</a>
+    <button id="dirOff" class="btn" type="button" disabled aria-disabled="true">Directions coming soon</button>
+  </section>
+
+  <section class="sec rsvp reveal" aria-labelledby="rvH">
+    <h2 id="rvH" class="h2">RSVP</h2>
+    <p class="note demo">Demo mode: responses are not sent to the couple yet.</p>
+    <form id="rsvpForm" novalidate>
+      <div class="field"><label for="gName">Guest Name</label><input id="gName" name="name" autocomplete="name" required aria-describedby="eName"><small id="eName" class="err" role="alert"></small></div>
+      <fieldset class="field"><legend>Will You Attend?</legend>
+        <label class="radio"><input type="radio" name="attend" value="accept" required> Joyfully Accept</label>
+        <label class="radio"><input type="radio" name="attend" value="decline"> Regretfully Decline</label>
+        <small id="eAtt" class="err" role="alert"></small></fieldset>
+      <div class="field" id="guestsWrap"><label for="gCount">Number of Guests</label><input id="gCount" name="guests" type="number" min="1" max="10" value="1" inputmode="numeric"><small id="eCount" class="err" role="alert"></small></div>
+      <div class="field"><label for="gMsg">Message for the Couple</label><textarea id="gMsg" name="message" rows="4" maxlength="500"></textarea></div>
+      <button class="btn solid" type="submit">Send RSVP</button>
+    </form>
+    <div id="rsvpDone" class="done" tabindex="-1" hidden><svg class="lotus" aria-hidden="true"><use href="#lotus"/></svg><h3 id="doneH"></h3><p id="doneP"></p></div>
+  </section>
+
+  <section class="closing" aria-labelledby="clH">
+    <div class="art closing-bg"><img data-img="closing" alt="" loading="lazy"></div>
+    <svg class="hero-arch" aria-hidden="true"><use href="#arch"/></svg>
+    <div class="diyas big" aria-hidden="true"><svg><use href="#diya"/></svg><svg><use href="#diya"/></svg><svg><use href="#diya"/></svg></div>
+    <div class="hero-text reveal">
+      <h2 id="clH" class="names script"><span data-bind="groom"></span><i>&amp;</i><span data-bind="bride"></span></h2>
+      <p class="cover-date">20 &bull; 12 &bull; 2026</p>
+      <p class="hero-line">Thank you for being part of our beginning. We look forward to celebrating with you.</p>
+    </div>
+  </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="config.js"></script>
+<script src="app.js" defer></script>
+</body>
+</html>
